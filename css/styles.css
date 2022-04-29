@@ -1,0 +1,102 @@
+:root {
+    --accent-color: #2196F3;
+    --first-color-text: #757575;
+    --secondary-color-text: #000000;
+    --third-color-text: #212121;
+    --forth-color-text: rgba(255, 255, 255, 0.6);
+    --fifth-color-text: #FFFFFF;
+    --background-color: #2F303A;
+
+}
+
+body {
+    color: black;    
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.header-logo {
+    color: var(--secondary-color-text);
+}
+
+.list {
+    list-style: none;
+}
+
+/*navigation */
+.nav .link {
+    color: var(--third-color-text);
+}
+
+.link:hover, 
+.link:focus {
+    color: var(--accent-color);
+}
+
+.contact .link {
+    color: var(--first-color-text);
+}
+
+/* hero */
+
+.hero {
+    background-color: var(--background-color);
+    color: var(--fifth-color-text);
+}
+
+/* sections */
+
+.section-title {
+    color: var(--third-color-text)
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list-title {
+    color: var(--third-color-text);
+}
+
+.list-text {
+    color: var(--first-color-text);
+}
+
+.title-team {
+    color: var(--third-color-text);
+}
+
+.text-team-position {
+    color:var(--first-color-text)
+}
+
+/* section ends */
+
+/* footer */
+
+.footer-logo {
+    color: var(--fifth-color-text);
+}
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.footer-adress {
+    color: var(--fifth-color-text);
+}
+
+.footer-contacts {
+    color: var(--forth-color-text);
+}
