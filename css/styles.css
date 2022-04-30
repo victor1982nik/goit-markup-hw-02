@@ -6,15 +6,24 @@
     --forth-color-text: rgba(255, 255, 255, 0.6);
     --fifth-color-text: #FFFFFF;
     --background-color: #2F303A;
+    /*secondary font -- font-family: 'Raleway',    sans-serif; */
+    /* main font  -- font-family: 'Roboto',    sans-serif; */
 
 }
 
 body {
-    color: black;    
+    font-family: 'Roboto',    sans-serif;
+    color: var(--first-color-text);    
 }
 
 .logo {
     color: var(--accent-color);
+    font-family: 'Raleway';    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .header-logo {
@@ -26,31 +35,62 @@ body {
 }
 
 /*navigation */
-.nav .link {
-    color: var(--third-color-text);
+
+.nav, 
+.contacts {    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+}
+.nav-link {
+    color: var(--third-color-text);   
+    text-decoration: none;
 }
 
-.link:hover, 
-.link:focus {
+.nav-link:hover:hover, 
+.nav-link:focus:focus,
+.contacts-link:hover, 
+.contacts-link:focus{
+    color: var(--accent-color);    
+}
+
+.contacts-link {      
+    color: currentColor;
+    text-decoration: none;
+}
+
+.active-menu {
     color: var(--accent-color);
-}
-
-.contact .link {
-    color: var(--first-color-text);
 }
 
 /* hero */
 
 .hero {
     background-color: var(--background-color);
+    color: var(--fifth-color-text);   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button-hero {
     color: var(--fifth-color-text);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* sections */
-
-.section-title {
-    color: var(--third-color-text)
-}
 
 .visually-hidden {
     position: absolute;
@@ -65,20 +105,36 @@ body {
     overflow: hidden;
 }
 
-.list-title {
-    color: var(--third-color-text);
+.section-title {
+    color: var(--third-color-text)
 }
 
-.list-text {
-    color: var(--first-color-text);
+.list-title {
+    color: var(--third-color-text); 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list-text {    
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+}
+
+.title-team, 
+.text-team-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .title-team {
-    color: var(--third-color-text);
-}
-
-.text-team-position {
-    color:var(--first-color-text)
+    color: var(--third-color-text);  
+    font-weight: 500;    
 }
 
 /* section ends */
@@ -93,10 +149,62 @@ body {
     background-color: var(--background-color);
 }
 
+.footer-adress,
+.footer-contacts {    
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
 .footer-adress {
-    color: var(--fifth-color-text);
+    color: var(--fifth-color-text);   
 }
 
 .footer-contacts {
-    color: var(--forth-color-text);
+    color: var(--forth-color-text);  
+    text-decoration: none;
 }
+
+/* portfolio*/
+
+.filter-button{
+    color: var(--third-color-text);
+    background-color: transparent;   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+
+.active-btn {
+    color: var(--fifth-color-text);
+    background-color: var(--accent-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--fifth-color-text);
+    background-color: var(--accent-color);
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+.work-title {
+    color: var(--third-color-text);   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;    
+}
+
+.work-description {
+    color: var(--first-color-text);    
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;    
+}
+
