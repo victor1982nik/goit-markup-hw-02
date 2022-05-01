@@ -51,7 +51,10 @@ body {
 .nav-link:hover:hover, 
 .nav-link:focus:focus,
 .contacts-link:hover, 
-.contacts-link:focus{
+.contacts-link:focus,
+.footer-contacts:hover,
+.footer-contacts:focus
+{
     color: var(--accent-color);    
 }
 
@@ -91,7 +94,16 @@ body {
     cursor: pointer;
 }
 
+.button-hero:hover,
+.button-hero:focus
+ {
+    background-color: #188CE8;
+}
+
 /* sections */
+.section {
+    background-color: #F5F4FA;
+}
 
 .visually-hidden {
     position: absolute;
