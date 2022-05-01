@@ -105,10 +105,8 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 .section-title {
-    color: var(--third-color-text);    
- /*   font-weight: 700;     h2 standart     */ 
+    color: var(--third-color-text);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -208,8 +206,7 @@ body {
 }
 
 .work-description {
-    color: var(--first-color-text);    
-   /* font-size: 16px; <p> default settings */
+    color: var(--first-color-text);     
     line-height: 1.8;
     letter-spacing: 0.03em;    
 }
