@@ -13,7 +13,8 @@
 
 body {
     font-family: 'Roboto',    sans-serif;
-    color: var(--first-color-text);    
+    color: var(--first-color-text);   
+    letter-spacing: 0.03em;
 }
 
 .logo {
@@ -21,8 +22,7 @@ body {
     font-family: 'Raleway';    
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;    
-    letter-spacing: 0.03em;
+    line-height: 1.19;        
     text-decoration: none;
 }
 
@@ -121,30 +121,26 @@ body {
     color: var(--third-color-text);
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+    text-align: center;    
 }
 
 .list-title {
     color: var(--third-color-text); 
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    line-height: 1.14;    
     text-transform: uppercase;
 }
 
 .list-text {    
     font-size: 14px;
     line-height: 1.71;    
-    letter-spacing: 0.03em;
 }
 
 .title-team, 
 .text-team-position {    
     line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
+    text-align: center;    
 }
 
 .title-team {
@@ -168,8 +164,7 @@ body {
 .footer-contacts {    
     font-style: normal;
     font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    line-height: 1.7;    
 }
 
 .footer-adress {
@@ -190,8 +185,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;    
-    text-align: center;
-    letter-spacing: 0.03em;
+    text-align: center;    
     cursor: pointer;
 }
 
@@ -219,7 +213,7 @@ body {
 
 .work-description {
     color: var(--first-color-text);     
-    line-height: 1.8;
-    letter-spacing: 0.03em;    
+    line-height: 1.8;       
 }
+
 
